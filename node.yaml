@@ -38,19 +38,20 @@ icvpn::transfer_net6: fec0::a:cf:12:1/96
 icvpn::nets_self: *nets_self
 icvpn::nets_self6: *nets_self6
 
-ffrl::preferred: dus
+ffrl::nat_ip: 185.66.195.2
+ffrl::preferred: fra
 ffrl::public_nets_self: *nets_self
 ffrl::public_nets_self6: *nets_self6
 ffrl::bba_dus: /31
 ffrl::bbb_dus: /31
 ffrl::bba_fra: /31
-ffrl::bbb_fra: /31
+ffrl::bbb_fra: 100.64.0.33/31
 ffrl::bba_ber: /31
-ffrl::bbb_ber: /31
+ffrl::bbb_ber: 100.64.0.35/31
 ffrl::bba_dus6: /64
 ffrl::bbb_dus6: /64
 ffrl::bba_fra6: /64
-ffrl::bbb_fra6: /64
+ffrl::bbb_fra6: 2a03:2260:0:13::2/64
 ffrl::bba_ber6: /64
-ffrl::bbb_ber6: /64
+ffrl::bbb_ber6: 2a03:2260:0:14::2/64
 
