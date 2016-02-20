@@ -60,7 +60,7 @@ nets6: &nets6
   - 2a03:2260:1001::/48
   - fd74:fdaa:9dc4::/48
 
-local_as: &local_as 65536
+local_as: &local_as 65513
 
 icvpn::community: nordwest
 icvpn::local_as: *local_as
