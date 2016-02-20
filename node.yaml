@@ -32,7 +32,7 @@ backbone::gre:
 ibgp::source: *self
 ibgp::source6: *self6
 
-icvpn::node: 01
+icvpn::node: '01'
 icvpn::transfer_net: 10.207.18.1/16
 icvpn::transfer_net6: fec0::a:cf:12:1/96
 icvpn::nets_self: *nets_self
