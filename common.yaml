@@ -1,0 +1,75 @@
+classes:
+  - user
+  - grmlzsh
+
+user::create:
+  eike:
+    groups:
+      - wheel
+    authorized_keys:
+      - eike:
+          type: ssh-rsa
+          key: AAAAB3NzaC1yc2EAAAADAQABAAACAQDPhYWyURUqlLmbJbrqNxLKc9SPh1bvhxuL0lLIqLKRivI4/zBpHkP4O6FXODYf5zkZtdBGg/lZCgrC5fS82BayxUCUFzmTKAsiqZK0xHY3dvltQGLCGDwEuPamwEai91GLMbsIeMQrymvZGDO6dYOHoDOdt/p4EHYWwdRz4ZIFO0OtMhT7I26rf6ap4HqWFPzY9smdH7Nx8UIFRAy9lWzpWQWt9EzrrbXjIbBPEbNv2tBMrXZtaYXVO/qGHtBQewN563kEJpMFVRZ9QVd1qOoiynGM35v3TA8Exgpe3qKO2qNlyO+RiwjCru2Jf2+eLy1CtAnao8jB59mOcax7q/nvp5ET5JFqnJk7m8KrGiMk3tyBpheun7uhiayMedHFQtFjU7u1FfiyvG7vCixwL5bXyo30zkpylLaD3fCDfwoN7UT8PZumYylQ4vahQJ/Z892L47euqOt6Dw5B8F1dlN5QXWyurxArK1eHw30CkZpInuXwSJbE56GkaSc1ru2KcUG7Jc+FluVN4hkONoVgjtFhxYcO4ifW68V1m5OeuwAJVc14ENRhMS4iKuQvLUGboM1XvAarXpaNYZUBHrSh/XkD4n2tKZGNxmMC0g5qbB48WzJJ14NoACsVfqZ+ybp3a6lH0lHrYItSuJ+M1oKsP9Jm0NhPgk0KsgE2lO2ZsvIi4Q==
+  tata:
+    groups:
+      - wheel
+    authorized_keys:
+      - eike:
+          type: ssh-rsa
+          key: AAAAB3NzaC1yc2EAAAADAQABAAACAQDoMvW2WhOPj+YK23UsN4IQFGGd5D+ZAahYfEIkiO53AKcEnit+k0PRsWG86l0Ua3fWspjOA4oCzN2LlqLN5lOqqZ4a6+kpNUHSLnzLEkJLUJ8oe6XvgVRl2k3U3V6UXlO1lHV5RCJOb7WbKFTMzqfD0tTnCkJfxflYK6Xs0109kYQpUcIXWRtsEjTxEUQOsVpKYL16CMNXtR9btDRAE78qRwegz4W4G07NukD8PLU26hsHfxp6x6Eb0omLofEnmvx84hmkkzrwKOp5itBWZLOZ/7AEoErrFwctV6NwrueBhWGSgekmg2QjTN7QbwotJ2uUZSCH8fPciuQVAOZh+0WLxgMXpvBgXDSYAC/BgAmTWb9G/f19r3AxPthfFppfUnS6SdM2NG2RAB93EnZjmnGcE7U75sgrShvvgYBL6STPXQ0AVAeriBLpPu/Brqz5cREbqFHvs5eGB/Tv5sNhmG6xxcfz1Q0HSZ4WmDAxt3dDV9RHhj+iUy/jvY6umw0LNMB8qO9+DtzssqsFO+VZyuOZePgU1DhDhkuEnursycSwAOPgU/fS4hc9mTWVQ1PDLnrTQo/fA4DjgXyr+SA1m+hspd9vKsDZlwVipHRqWs0vkUY63cz+x+NO/cJFVRhlvELQfxoBPWAqf4wPk4xB8/nEQA394PBz+CIrK8Ns/RCf/w==
+  fkr:
+    groups:
+      - wheel
+    authorized_keys:
+      - eike:
+          type: ssh-rsa
+          key: AAAAB3NzaC1yc2EAAAABIwAAAQEA2khRv76VW4CrMfJwMDqctxkG+D1ZjCPCB6J20CDh4wZyyePBm6bd+fumjW8nEijNTzOtzQnV8g1rfyRfGNgCPiTvB64BfpK8G1YH+63tURBxyUtFeByKI2YtA/sP36XR3sZx49OFpeYtRBQh9H/GBhZ1211yrrmitj77bO2ixC4szXsuMJG9MMtp5jbbXKwbfZE/1E0/83S7V6M8d3hR5F3fMbdFWK1wsnXr5RmSTCkP6kOGerAeiN77nyAlonhhzmy4+bhxmly7WaQbWo64a6NBdi71IHZzS/4zS+0eU75i73h07F2CLXDlb9gnqtPo4vRM8PSVqfP9ovVj2ea2bw==
+  bjo:
+    groups:
+      - wheel
+    authorized_keys:
+      - eike:
+          type: ssh-ed25519
+          key: AAAAC3NzaC1lZDI1NTE5AAAAICRCihQwFB3Rp6z2bEPwxKqWrIZJ3389uLBG3GwkPbO9
+  floh1111:
+    groups:
+      - wheel
+    authorized_keys:
+      - eike:
+          type: ssh-rsa
+          key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCrQwzLfkNNCR0muZ5HtflHK8nvSRhpbqiyBfobzxHHRpYn53Z+nAksUz9BgxaO97MArf9WmBcyRIMkJpiJwS1/jN1q+9LgOiMRnEWaP6ucNsnPCFZfRmVWNVszNg9re/mQJDDqRek/13LfjBD5r/hqnwNjDaF9K10/HqodnR0Mwpv4lPVOv8sTSmny0NFpvMQroVV8+xO7MNcj4ALF3GJge1CdVgB6fEuDc+042yJMP+VZwBby/PM0+SuOdtgPzIIkId08jB6xqCOprQPyXwARzUUzYrul1l+h7OqzqwWtQChq9EOb0ktA8P4o7PqXTUWZMDfJqGE6lPCYofaAlNPN
+  stefan:
+    groups:
+      - wheel
+    authorized_keys:
+      - stefan:
+          type: ssh-rsa
+          key: AAAAB3NzaC1yc2EAAAABJQAAAQEAkvFAse3AS8NUGQprbMnsClgcWysGcama/bVUhZGCySGooZFuLQh2UXlqdrfFGf7K7mPn9lz+MW1RuEARFt5KcCdoWuPnnnVa+PfPdy/NhSXKQQz+9/MFZUwMrhCHlJKYgNoQRlVWHMfnu71MXFV7jVynlzRDFNPGGMqHaY2fChftirPGw/S/k0l4RckjxY/QckfZLCADm8D7O2Rw4FwY5Gag73cKXOn3xu2cDuiPsHduL3Fis/WSo1n9uh+M+5Y4koktSmuL5cYgV8Mn6djRSnNkdxKg79UiRL3mC5WIsY8gst9MANV9HXJ2Qd6oGbz7XQyD0S8Wf1X2GUmxGiecqw==
+  simon:
+    groups:
+      - wheel
+    authorized_keys:
+      - simon@Nottebuck-Ubuntu:
+          type: ssh-rsa
+          key: AAAAB3NzaC1yc2EAAAADAQABAAAEAQDBXXFnzFb8JIZiXaEFafahs0Lq54KUlae3ysAPPpcDZcRok17Qem83LHN3avGxH2w62xwxJbnXjtnNz411UzXLAsnwSXbMB79k0gM0MlkGIac28Kq6NHSlJQwANsGlVbNiV4mRIy4wU6+TsxKpabXsWSBfluTymy6JpyTsipUwFyeNwSlmT+Nj8wI9/1L1EtbCXp5HLvELa91x8rceRiGWlO+h9Aa3tx5jkAswRz9M7HmV/yPUnF9/Mtux64ftEPPhfXQKo9/ZRwoCod8idwnfBAy8h9G09QaODTmtEhjG665on9yc4NTDbEPATDfXtRVJsBC0RCH4Iat7sHI6fpaqZr012AUlfKJyTi+ZnQr+8mDw5p7nuNemRplG2w+LgSu2W86/NoO5Uwb8n+vE173ltj8/OYB3LA2HIzJYNPKVrYqQcoykO2iBMZUoiKVY6Op2fR/1QXMzp2hsnV60Zvq3YwEqXXHj2ldJEVU8jnF/9JCRO379ygAudu8gIqblWjy0UN8CbrQDNT70r9xRr7iA6f8kqImXu+tH1lLM9VvZ8msoEfi+lWjbtQYpY/Rip1g75OAClCkMr7Gt6By3EzCII9/NWAimOGczK5dHWh997aXxpxsogyVPQC9PnitaRp0zp5lDruc4wRLXlREFo6gyp0yVxExz6rq9lpWQaN0hHAoazeGlnmY1H7FN+xGtuWXKu/rSHWDP3I+pPk9ASuJIJDNxXy8kzAPpT1qEVSLj1jPF7O0NBVZAcMX3DMhgNcWrUnJAny50Q7tU3X23U6LWKOSO1CnzqOXzOWJuZLoatr2eMBYcyeQZe8neAaUJxoKwmIPxIPhTDGuQFnOMzUSCERvYYNma89yAWaZ2EQHoEYehtsqQzvKgQlYoK6w+8PzXXBJNDQDZ4pmXZuHzT0dX7LCOJFkwcABk/zA5tQ8ziXERkF1u1iHgWujIwFwMun3MiAd4TLGK5IoF2vMiPmeeGhow9A4yq8mbM24wckSpujVXnQm6grH+7JKFokPm9t+ZRtTzHoP958v89B4ax5fPHbde43mfamqcAQXKqJrzvwifA5czU+KlW06CvZPnpNQPNaGsLEGy42aU4bv2T+frO/4pGGc90Dr5A0bSOcmsNQypabPLzJSlZ94EqZ8D04Jtptsg46wusXFAxRXbW1163oo3jYa67x/iiHhkYIu1L3Kty1kwd1aVLqxzcQ/oHDTiPRYlKH9e+RIc4hhXcVU+7j01B1lOGOBZPweoib8t0705CQjAOYiLzfT12qepFssJaT7d7eyTz/4d3XZlxGo1sdKVfFzDG0i9qnfb5nhYWuat39J1vhpI87lx6f1HpxSmpYo3ALPtqsMmIf5V4CQR
+
+nets: &nets
+  - 10.18.0.0/16
+
+nets6: &nets6
+  - 2a03:2260:1001::/48
+  - fd74:fdaa:9dc4::/48
+
+local_as: &local_as 65536
+
+icvpn::community: nordwest
+icvpn::local_as: *local_as
+icvpn::nets: *nets
+icvpn::nets6: *nets6
+
+ffrl::local_as: *local_as
+ffrl::public_nets: *nets
+ffrl::public_nets6: *nets6
+
+ibgp::local_as: *local_as
+

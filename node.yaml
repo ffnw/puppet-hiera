@@ -1,0 +1,52 @@
+classes:
+  - hood
+  - backbone
+  - ibgp
+  - icvpn
+  - ffrl
+
+nets_self: &nets_self
+  - 10.18.8.0/21
+
+nets_self6: &nets_self6
+  - 2a03:2260:1001:0800::/53
+
+bird::router_id: 10.18.8.1
+
+hood::create:
+  ol-nord:
+    subnet: 10.18.8.0/21
+    subnet6: 2a03:2260:1001:0800::/53
+    fastd: 4
+
+backbone::gre:
+  gw01:
+    endpoint: 10.18.8.1
+    transfer: 10.18.248.0/31
+    transfer6: fd74:fdaa:9dc4:f800::/64
+
+ibgp::source: 10.18.8.1
+ibgp::source6: fd74:fdaa:9dc4:0800::1
+
+icvpn::node: 01
+icvpn::transfer_net: 10.207.18.1/16
+icvpn::transfer_net6: fec0::a:cf:12:1/96
+icvpn::nets_self: *nets_self
+icvpn::nets_self6: *nets_self6
+
+ffrl::preferred: dus
+ffrl::public_nets_self: *nets_self
+ffrl::public_nets_self6: *nets_self6
+ffrl::bba_dus: /31
+ffrl::bbb_dus: /31
+ffrl::bba_fra: /31
+ffrl::bbb_fra: /31
+ffrl::bba_ber: /31
+ffrl::bbb_ber: /31
+ffrl::bba_dus6: /64
+ffrl::bbb_dus6: /64
+ffrl::bba_fra6: /64
+ffrl::bbb_fra6: /64
+ffrl::bba_ber6: /64
+ffrl::bbb_ber6: /64
+
