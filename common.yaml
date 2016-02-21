@@ -1,6 +1,8 @@
 classes:
+  - ssh
   - user
   - grmlzsh
+  - network
 
 user::create:
   eike:
@@ -72,4 +74,11 @@ ffrl::public_nets: *nets
 ffrl::public_nets6: *nets6
 
 ibgp::local_as: *local_as
+
+# ghoneycutt/ssh
+ssh::sshd_password_authentication: no
+ssh::permit_root_login: no
+ssh::sshd_config_strictmodes: yes
+ssh::sshd_use_pam: no
+ssh::sshd_hostbasedauthentication: no
 
