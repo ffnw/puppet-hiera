@@ -75,6 +75,15 @@ ffrl::public_nets6: *nets6
 
 ibgp::local_as: *local_as
 
+#endpoint-gw01: 
+#endpoint-gw02: 
+#endpoint-gw03: 
+#endpoint-gw04: 
+#endpoint-gw05: 
+#endpoint-gw06: 
+#endpoint-gw07: 
+#endpoint-gw08: 
+
 # ghoneycutt/ssh
 ssh::sshd_password_authentication: no
 ssh::permit_root_login: no
